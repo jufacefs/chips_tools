@@ -1,0 +1,31 @@
+{
+  "Games": [
+    {
+      "id": "game 1",
+      "platform": {
+        "launchyear": "1989",
+        "name": "Atari Lynx"
+      },
+      "title": "Chip's Challenge",
+      "Year": "1989"
+    },
+    {
+      "id": "game 2",
+      "platform": {
+        "launchyear": "2003",
+        "name": "Steam"
+      },
+      "title": "Chip's Challenge 2",
+      "Year": "1989"
+    },
+    {
+        "id": "game 3",
+        "platform": {
+          "launchyear": "2019",
+          "name": "Steam"
+        },
+        "title": "Disco Elysium",
+        "Year": "2019"
+      }
+  ]
+}
