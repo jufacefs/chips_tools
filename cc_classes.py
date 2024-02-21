@@ -26,6 +26,11 @@ class CCField:
         return return_str
 
 
+
+
+
+# Field 3
+
 class CCMapTitleField(CCField):
     """A class defining the map title field
     Member vars:
@@ -69,6 +74,10 @@ class CCCoordinate:
         return "("+str(self.x)+", "+str(self.y)+")"
 
 
+
+
+# Brown button initiation
+
 class CCTrapControl:
     """A class defining a single trap control
     Member vars:
@@ -89,6 +98,11 @@ class CCTrapControl:
     def __str__(self):
         return "button"+str(self.button_coord)+", trap"+str(self.trap_coord)
 
+
+
+
+
+# Field 4
 
 class CCTrapControlsField(CCField):
     """A class defining the trap controls field
@@ -149,6 +163,9 @@ class CCCloningMachineControl:
         return "button"+str(self.button_coord)+", machine"+str(self.machine_coord)
 
 
+
+
+# Field 5
 class CCCloningMachineControlsField(CCField):
     """A class defining the cloning machine controls field
     Member vars:
@@ -186,6 +203,14 @@ class CCCloningMachineControlsField(CCField):
         return byte_value
 
 
+
+
+
+
+# Field 6==================
+    
+
+
 class CCEncodedPasswordField(CCField):
     """A class defining an encoded password
     Member vars:
@@ -216,6 +241,15 @@ class CCEncodedPasswordField(CCField):
         password_bytes += b'\x00'
         return password_bytes
 
+
+
+
+
+
+
+
+# field 7===========================
+    
 
 class CCMapHintField(CCField):
     """A class defining a hint
@@ -272,6 +306,9 @@ class CCPasswordField(CCField):
         return password_bytes
 
 
+
+
+# field 10
 class CCMonsterMovementField(CCField):
     """A class defining the monsters that move in a given level
     Member vars:
